@@ -66,6 +66,17 @@ adults<- function(val, surv, stoch=FALSE,...)
 	return(adult_out)	
 	}	
 	
+spawning_adults<- function(val, surv, stoch=FALSE,...)
+	{
+	# INPUTS
+	# val: NUMBER OF ADULTS AT PREVIOUS DAY
+	# surv: DAILY SURVIVAL RATE TO APPLY TO SPAWNING ADULTS
+	# stoch: SHOULD OUTPUT BE STOCHASTIC?  DEFAULTS TO FALSE
+	# spawning_adults_out: THIS IS THE VALUE RETURNED BY THE FUNCTION
 	
+	spawning_adults<- val
+	spawning_adults_out<- ifelse(stoch==FALSE, spawning_adults*surv, rpois(spawning_adults*surv))
+	return(spawning_adults_out)	
+	}	
 	
 	

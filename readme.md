@@ -1,4 +1,4 @@
-# Pallid Sturgeon Effects Analysis Quantitative Modeling
+# Pallid Sturgeon Effects Analysis Quantitative Modelling
 
 ## Objectives
 
@@ -16,6 +16,6 @@ The model simulates Missouri River Pallid sturgeon populations from the confluen
 	* Lower basin-Lower Missouri River segment (RKM ?? to RKM ??))
 	
 ## Temporal resolution
-The model simulates population dynamics on a daily time step.
+The model simulates population dynamics on an annual time step.
 
 ## Pallid sturgeon life history and stages
