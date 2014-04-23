@@ -1,21 +1,20 @@
 # Pallid Sturgeon Effects Analysis Quantitative Modelling
 
 ## Objectives
+The objectives of the current model version is to provide a generic working template to demonstrate abilities to simulate population dynamics.
 
 ## Description
 This repository contains source code for effects analysis of Missouri River hydro operations on Pallid Sturgeon population dynamics.  
 
 ## Spatial extent and grain
-The model simulates Missouri River Pallid sturgeon populations from the confluence of the Missouri River with the Mississippi River upstream to the Missouri and Yellowstone River reaches in Montana, USA.  The Missouri River is divided into 2 major basin, lower and upper representing natural breaks in the river system and Pallid sturgeon population.  The upper and lower sections are divided into 2 lower and upper sections.  
-
-* Lower Missouri River basin (RKM 0 to RKM ??)
-    * Lower basin-Lower Missouri River segment (RKM ?? to RKM ??))
-	* Upperbasin-Lower Missouri River segment (RKM ?? to RKM ??))
-* Upper Missouri River basin (RKM 0 to RKM ??)
-    * Upper basin-Lower Missouri River segment (RKM ?? to RKM ??))
-	* Lower basin-Lower Missouri River segment (RKM ?? to RKM ??))
+The current model simulates a hypothetical population of Missouri River Pallid sturgeon  
 	
 ## Temporal resolution
-The model simulates population dynamics on an annual time step.
+The model simulates population dynamics on an annual time stepover a user specified time horizon..
 
-## Pallid sturgeon life history and stages
+## Pallid sturgeon life history and stages included in the model
+1. Gametes and developing embryos
+2. Free larvae
+3. Exogenously feeding larvae and age-0 (up to ~365 days post hatch)
+4. Juveniles
+5. Adults
